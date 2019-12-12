@@ -23,6 +23,6 @@ end
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   return array.detect do |cheese|
-    cheese == (cheese_types. split(||))
+    cheese == (cheese_types.split (||) )
   end
 end
