@@ -14,7 +14,7 @@ end
 
 def long_planeteer_calls(array)
   
-  wordsarray.each do |call|
+  words = array.each do |call|
     call.length > 4
   # Your code here
 end
